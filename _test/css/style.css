@@ -544,8 +544,8 @@ ul.og-grid li {
   height: 250px;
 }
 
-ul.og-grid li>a,
-ul.og-grid li>a img {
+ul.og-grid li a,
+ul.og-grid li a img {
   border: none;
   outline: none;
   display: block;
@@ -555,6 +555,12 @@ ul.og-grid li>a img {
 ul.og-grid li a {
 	-webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+ul.og-grid li a img {
+  margin: 0 auto;
+  height: 60%;
+  width: 60%;
 }
 
 ul.og-grid li a:hover {
@@ -582,7 +588,7 @@ Team
 }
 
 .box-team img {
-	max-width: 300px;
+	max-width: 250px;
 	margin:0px auto 25px auto;
 }
 
