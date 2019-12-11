@@ -321,7 +321,7 @@ Intro
 
 #intro .carousel-content {
   text-align: center;
-  width:25%;
+  width: 450px;
 }
 
 #intro .carousel-content img{
@@ -329,62 +329,15 @@ Intro
 }
 
 @media (max-width: 768px) {
-  #intro h2
-    font-size: 36px;
+  #intro .carousel-content {
+    width: 325px;
   }
 }
 
-#intro .carousel-inner .item {
-  transition-property: opacity;
-  background-position: center top;
-}
-
-#intro .carousel-inner .item,
-#intro .carousel-inner .active.left,
-#intro .carousel-inner .active.right {
-  opacity: 0;
-}
-
-#intro .carousel-inner .active,
-#intro .carousel-inner .next.left,
-#intro .carousel-inner .prev.right {
-  opacity: 1;
-  transition: 0.9s;
-}
-
-#intro .carousel-inner .next,
-#intro .carousel-inner .prev,
-#intro .carousel-inner .active.left,
-#intro .carousel-inner .active.right {
-  left: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#intro .carousel-control-prev,
-#intro .carousel-control-next {
-  color: #fff;
-  position: absolute;
-  top: calc(50% - 15px);
-}
-
-#intro .carousel-control-prev {
-  left: 20px;
-}
-
-#intro .carousel-control-next {
-  right: 20px;
-}
-
-#intro .carousel-control-next-icon,
-#intro .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-}
-
-#intro .carousel-indicators {
-  cursor: pointer;
+@media (max-width: 480px) {
+  #intro .carousel-content {
+    width: 225px;
+  }
 }
 
 #intro .btn-get-started {
