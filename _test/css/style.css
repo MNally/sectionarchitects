@@ -321,7 +321,7 @@ Intro
 
 #intro .carousel-content {
   text-align: center;
-  width: 450px;
+  width: 25%;
 }
 
 #intro .carousel-content img{
@@ -330,13 +330,13 @@ Intro
 
 @media (max-width: 768px) {
   #intro .carousel-content {
-    width: 325px;
+    width: 30%;
   }
 }
 
 @media (max-width: 480px) {
   #intro .carousel-content {
-    width: 225px;
+    width: 50%;
   }
 }
 
