@@ -321,20 +321,11 @@ Intro
 
 #intro .carousel-content {
   text-align: center;
+  width:25%;
 }
 
-#intro h2 {
-  color: #000;
+#intro .carousel-content img{
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-#intro h5 {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #000;
 }
 
 @media (max-width: 768px) {
