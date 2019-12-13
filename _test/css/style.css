@@ -290,7 +290,7 @@ Intro
 #intro .item::before {
   content: '';
   background-color: rgba(255, 255, 255, 0);
-	position: absolute;
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -324,7 +324,7 @@ Intro
   width: 25%;
 }
 
-#intro .carousel-content img{
+#intro .carousel-content img {
   margin-bottom: 30px;
 }
 
@@ -350,7 +350,7 @@ Intro
   border-radius: 3px;
   transition: 0.5s;
   line-height: 1;
-	background-color: rgba(255,255,255,1.0);
+  background-color: rgba(255, 255, 255, 1.0);
   margin: 10px;
   color: #000;
   -webkit-animation-delay: 0.8s;
@@ -414,64 +414,7 @@ About
 }
 
 /* ================================
-Services
-================================= */
-.service.carousel h4, .service.carousel p {
-  text-align: left;
-}
-
-.service .carousel-control {
-  background: none;
-}
-
-.service .screenshot {
-  overflow: hidden;
-  overflow: hidden;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.service .screenshot img {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 4px;
-  width: 400px;
-}
-
-.service .carousel-indicators {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 5px;
-  padding-bottom: 8px;
-  width: 100%;
-  background: #ffffff;
-}
-
-.service .carousel-indicators .active {
-  width: 45px;
-  height: 5px;
-  border: none;
-  border-radius: 0px;
-}
-
-.service .carousel-indicators li {
-  display: inline-block;
-  margin: 1px;
-  width: 45px;
-  height: 5px;
-  border: none;
-  border-radius: 0px;
-  background: #eeeeee;
-  text-indent: -999px;
-  cursor: pointer;
-}
-
-/* ================================
-Works
+Clients
 ================================= */
 ul.og-grid {
   list-style: none;
@@ -497,7 +440,7 @@ ul.og-grid li a img {
 }
 
 ul.og-grid li a {
-	-webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
@@ -508,32 +451,20 @@ ul.og-grid li a img {
 }
 
 ul.og-grid li a:hover {
-	-webkit-filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-}
-
-
-/* ================================
-Clients
-================================= */
-ul.clients {
-  list-style: none;
-}
-
-ul.clients li {
-  display: inline;
 }
 
 /* ================================
 Team
 ================================= */
 .box-team {
-	text-align: center;
+  text-align: center;
 }
 
 .box-team img {
-	max-width: 250px;
-	margin:0px auto 25px auto;
+  max-width: 250px;
+  margin: 0px auto 25px auto;
 }
 
 /* ================================
@@ -605,14 +536,6 @@ more media queries
 }
 
 @media (max-width:480px) {
-  header .carousel-iphone, .detail .screenshot {
-    width: 280px;
-  }
-
-  header .carousel, .detail .screenshot img {
-    padding-top: 85px;
-    width: 245px;
-  }
 
   .service .screenshot img {
     margin-top: -12px;
@@ -624,7 +547,4 @@ more media queries
     padding-bottom: 0px;
   }
 
-  header h1 {
-    font-size: 70px;
-  }
 }
