@@ -322,6 +322,7 @@ Intro
 #intro .carousel-content {
   text-align: center;
   width: 25%;
+  max-width: 375px;
   min-width: 250px;
 }
 
