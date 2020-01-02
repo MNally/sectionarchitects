@@ -16,7 +16,7 @@ General
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6em;
 }
 
@@ -358,7 +358,7 @@ Intro
   color: #000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #FF7D96;
+  border: 2px solid #000;
 }
 
 #intro .btn-get-started:hover {
